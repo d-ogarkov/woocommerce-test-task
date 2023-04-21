@@ -30,7 +30,7 @@
 						foreach ($products as $product) {
 							echo '<li class="product">';
 							// TODO: get_image вставляет width и height, надо избавиться от них
-							echo $product->get_image($size = 'woocommerce_thumbnail', $attr = array('class'=>'product__image'), $placeholder = true);
+							echo $product->get_image($size = 'woocommerce_thumbnail', $attr = array('class' => 'product__image'), $placeholder = true);
 							echo '<h3 class="product__title">' . $product->get_title() . '</h3>';
 							echo '</li>';
 						}
