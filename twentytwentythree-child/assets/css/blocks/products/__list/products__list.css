@@ -1,0 +1,20 @@
+.products__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-gap: 60px 20px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .products__list {
+    grid-template-columns: repeat(3, 150px);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .products__list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

@@ -1,0 +1,11 @@
+.product__image {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+@media screen and (min-width: 1200px) {
+  .product__image {
+    max-width: 200px;
+    max-height: 200px;
+  }
+}
